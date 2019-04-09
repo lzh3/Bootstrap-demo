@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+
+/*头部导航*/
+#nav_head{
+    padding:15px 0;
+    border:none;
+    background-color:rgba(248,248,248,0);
+    transition:padding .5s;
+}
+#more_menu{
+    border-radius:0px;
+}
+#more_menu:hover{
+    background-color:#faca45;
+    border-color:#faca45;
+}
+#more_menu:hover span{
+    background-color:#fff;
+}
+#nav_head.on{
+    padding:0px;
+    background-color:rgba(2,2,2,1);
+}
+#nav_head .navbar-header a.navbar-brand{
+    font-weight: bold;
+    font-size: 20px;
+    color:#fff;
+}
+#nav_head #nav_item{
+    font-size:12px;
+    font-weight: bold;
+}
+#nav_item ul li.active a{
+    background: transparent;
+}
+#nav_head #nav_item ul li a{
+    color:#fff;
+}
+#nav_head #nav_item ul li a.c_yellow:nth-child(1){
+    color:#faca45;
+}
+#nav_head #nav_item ul li a:hover{
+    color:#faca45;
+}
+/*第一部分：欢迎*/
+#part_Home{
+    width:100%;
+    background:url("../img/bg01.jpg") center/cover no-repeat fixed;
+}
+.one_in{
+    height:750px;
+    background: -ms-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.60) 17%,rgba(0,0,0,0.59) 35%,rgba(0,0,0,0.44) 62%,rgba(0,0,0,0.32) 100%);
+    background: -moz-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.60) 17%,rgba(0,0,0,0.59) 35%,rgba(0,0,0,0.44) 62%,rgba(0,0,0,0.32) 100%);
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.60) 17%,rgba(0,0,0,0.59) 35%,rgba(0,0,0,0.44) 62%,rgba(0,0,0,0.32) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.60) 17%,rgba(0,0,0,0.59) 35%,rgba(0,0,0,0.44) 62%,rgba(0,0,0,0.32) 100%);
+
+}
+#part_Home .content{
+    width:100%;
+    height:100%;
+    padding:300px 0 0;
+    color:#CFCFCF;
+    text-align: center;
+}
+#part_Home .content h1{
+    text-transform: uppercase;
+}
+#part_Home .content p:nth-of-type(1){
+    margin-top:27px;
+    font-size: 18px;
+}
+#part_Home .content p strong{
+    color:#fff;
+}
+#part_Home .content p:nth-of-type(2){
+    margin-top: 225px;
+}
+#part_Home .content p:nth-of-type(2) span{
+    display: block;
+    width:48px;
+    height:44px;
+    margin:auto;
+    line-height:44px;
+    text-align: center;
+    border:2px solid #fff;
+    border-radius: 50%;
+}
+#part_Home .content p:nth-of-type(2) span i{
+    font-size: 20px;
+    color:#fff;
+}
+/*第一部分：欢迎 end*/
+
+/*第二部分：about us start*/
+#part_About{
+
+}
+#part_About .container{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+#part_About .container .about_content h2{
+    line-height:20px;
+    font-size: 28px;
+    font-weight: 300 !important;
+}
+#part_About .container .about_content p.line_bar{
+    width:60px;
+    height:4px;
+}
+#part_About .container .about_content p.intro{
+    margin:30px 0 40px;
+    color:#5a5a5a;
+    line-height:22px;
+    font-size: 17px;
+}
+#part_About .container .about_content ul li{
+    font-size: 16px;
+    line-height:28px;
+    color:#5a5a5a;
+}
+#part_About .container .about_content ul li i{
+    padding-right:15px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+/*第二部分：about us end*/
+
+/*第三部分：our team*/
+#part_Team{
+    background: url("../img/bg-02.jpg") center/cover no-repeat fixed;
+    color:#fff;
+}
+#part_Team .cont_in{
+    height: auto;
+    padding:80px 40px;
+    background: -ms-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+    background: -moz-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+}
+#team_pic{
+    margin-top:60px;
+    text-align: center;
+}
+#team_pic div{
+    color:#fff;
+}
+#team_pic div:hover >img{
+    border-color:#faca45;
+}
+#team_pic div h4{
+    margin-top:40px;
+}
+#team_pic div p.intro{
+    padding:0 50px;
+    box-sizing: border-box;
+}
+#team_pic div img{
+    display: inline-block;
+    width:114px;
+    height:114px;
+    border:4px solid transparent;
+    border-radius: 50%;
+}
+.owl-controls .owl-pagination{
+    margin-top:60px;
+}
+.owl-controls .owl-pagination .owl-page span{
+    border-radius: 0 !important;
+    background:#fff !important;
+    opacity:1 !important;
+}
+.owl-controls .owl-pagination .owl-page.active span,.owl-controls .owl-pagination .owl-page:hover{
+    background: #faca45 !important;
+}
+
+/*第三部分：our team end*/
+
+/*第四部分：service*/
+#part_Service{
+    height:auto;
+}
+#part_Service .cont_in{
+    padding:80px 0;
+    background: #fff;
+}
+#part_Service .cont_in h2{
+    margin-top:30px;
+    color:#000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#part_Service .cont_in .row{
+    padding:0 80px;
+    margin-top:60px;
+    text-align:center;
+}
+#part_Service .cont_in .row div p.icon{
+    width:114px;
+    height:114px;
+    margin:auto;
+    line-height: 114px;
+    text-align: center;
+    border:4px solid #faca45;
+    border-radius: 50%;
+    transition: background .5s;
+}
+#part_Service .cont_in .row div p.icon i{
+    color:#5A5A5A;
+    font-size:46px;
+    transition:all .6s;
+}
+#part_Service .cont_in .row div:hover >i{
+    border-color:#faca45;
+}
+#part_Service .cont_in .row div h4{
+    margin:15px 0 10px;
+    color:#5A5A5A;
+    line-height:24px;
+    font-weight: bold;
+}
+#part_Service .cont_in .row div p.intro{
+    padding:0 25px;
+    line-height:20px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+#part_Service .cont_in .row div:hover p.icon{
+    background: #faca45;
+}
+#part_Service .cont_in .row div:hover p.icon i{
+    color:#fff;
+}
+/*第四部分：service end*/
+/*第五部分: ally*/
+#part_Ally{
+    background: url("../img/bg-04.jpg") center/cover no-repeat fixed;
+}
+#part_Ally .cont_in{
+    height: auto;
+    padding:80px 40px;
+}
+#part_Ally .cont_in h2 {
+    margin-top: 30px;
+}
+#part_Ally .cont_in #brand{
+    margin-top:75px;
+    text-align: center;
+}
+/*第五部分: ally end*/
+
+/*第七部分*/
+#part_Client{
+    height: auto;
+    background: url("../img/bg-05.jpg") center/cover no-repeat fixed;
+}
+.cont_in{
+    padding:80px 0;
+    background: -ms-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+    background: -moz-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.50) 17%,rgba(0,0,0,0.49) 35%,rgba(0,0,0,0.34) 62%,rgba(0,0,0,0.22) 100%);
+}
+.cont_in h2{
+    color:#fff;
+    font-weight: 300;
+}
+#part_Client .owl-carousel{
+    display: block;
+    margin-top:75px;
+    color:#fff;
+    text-align: center;
+}
+#part_Client .owl-carousel div p.txt{
+    width:730px;
+    margin:auto;
+    line-height: 24px;
+    font-size: 16px;
+}
+#part_Client .owl-carousel div p.author{
+    margin-top:40px;
+    color:#d1d1d1;
+}
+/*第八部分：contact*/
+#part_Contact{
+    height: auto;
+}
+#part_Contact .cont_in{
+    background:#fff;
+}
+#part_Contact .cont_in h2{
+    color: #000;
+}
+#part_Contact .cont_in h2 span{
+    font-family: 仿宋;
+}
+#part_Contact .cont_in p.txt{
+    width:60%;
+    margin:40px auto;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color:#5a5a5a;
+}
+#part_Contact .cont_in>.row{
+    width:60%;
+    margin:auto;
+}
+#part_Contact .cont_in>.row div.inp{
+    margin:auto;
+    box-sizing: border-box;
+}
+#part_Contact .cont_in .row2 h6{
+    width:60%;
+}
+#part_Contact .cont_in .row2{
+    width:60%;
+    margin:auto;
+    padding:0 15px;
+}
+#part_Contact .cont_in .row3{
+    width:60%;
+    margin:15px auto 0;
+    padding:0 15px;
+}
+#part_Contact .cont_in .row3 button {
+    background: #faca45;
+    border-radius: 0;
+    border:none;
+    outline:none;
+}
+/*第八部分：contact us*/
+
+/*第九部分: footer*/
+#part_footer{
+    padding:25px 15px;
+    background: #000;
+    color:#fff;
+}
+#part_footer .container .row div{
+    margin-top:17px;
+    text-align: center;
+}
+#part_footer .container div p{
+    font-size: 12px;
+}
+#part_footer .container div p a{
+    color:#faca45;
+}
+#part_footer .container div>a{
+    display: inline-block;
+    width:28px;
+    height:28px;
+    margin:-14px 5px 0;
+    border:2px solid #ccc;
+    border-radius: 50%;
+    line-height: 28px;
+    text-align: center;
+    color:#ccc;
+    transition:all .5s;
+}
+#part_footer .container div>a:hover{
+    text-decoration: none;
+    border-color:#faca45;
+    background: #faca45;
+    color:#fff;
+}
+/*第九部分: footer end*/
+
+/*第六部分：demo*/
+#part_Demo{
+    padding:80px 0;
+}
+#part_Demo .row>div{
+    position:relative;
+    margin-bottom:31px;
+}
+#part_Demo .row a{
+    width:100%;
+}
+#part_Demo .row a img{
+    width:100%;
+    height: 262px;
+}
+.navBox{
+    height:auto;
+}
+.navBox h3{
+    float:left;
+    line-height: 50px;
+    font-size: 18px;
+    color:#5A5A5A;
+}
+.navBox div{
+    float:right;
+    line-height: 24px;
+    text-align: center;
+}
+.navBox div span{
+    padding:0 25px;
+    cursor:pointer;
+    color:#aaa;
+}
+.navBox div span.bColor{
+    color:black;
+}
+#part_Demo .row div .detail{
+    position:absolute;
+    display: none;
+    top:0;
+    left:15px;
+    z-index: 2;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+    color:#fff;
+}
+#part_Demo .row div:hover >.detail{
+    display: block;
+}
+.detail .wrap{
+    position: relative;
+    width:130px;
+    height: 130px;
+    margin:66px auto 0;
+}
+#part_Demo .row div .detail h4{
+    /*margin-top:78px;*/
+    position: absolute;
+    width:100%;
+    top:20px;
+    text-align: center;
+    transition: all .7s linear;
+}
+#part_Demo .row div .detail p{
+    position: absolute;
+    top:42px;
+    width:100%;
+    text-align: center;
+}
+#part_Demo .row div .detail span{
+    display: block;
+    position: absolute;
+    top:30px;
+    left:47px;
+    width:30px;
+    height: 30px;
+    margin:30px auto 0;
+    border:2px solid #faca45;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    transition: all .6s linear;
+}
+#part_Demo .row .detail:hover h4{
+    top:0;
+}
+#part_Demo .row .detail:hover span{
+    top:62px;
+}
+/*第六部分：demo end*/
+
+
+

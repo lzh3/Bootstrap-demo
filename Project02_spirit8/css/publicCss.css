@@ -1,0 +1,32 @@
+@charset "utf-8";
+.b_yellow{
+    background-color:#faca45;
+}
+.c_yellow{
+    color:#FCAC45;
+}
+p.line_bar{
+    position:relative;
+    width:60px;
+    height: 4px;
+}
+/*黄色条*/
+p.line_bar::after{
+    content:"";
+    position:absolute;
+    left:10px;
+    top:15px;
+    width:40px;
+    height:4px;
+    background-color: #faca45;
+    opacity:.5;
+}
+p.info{
+    margin:40px 0 77px;
+    padding:0 110px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+
